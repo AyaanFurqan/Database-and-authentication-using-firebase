@@ -3,7 +3,6 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, se
 import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js";
 import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
 const firebaseConfig = {
-  apiKey: "AIzaSyCwF3k7bDgG3e8e-p5djjtz4v05k_Vpu1k",
   authDomain: "practice-bba4f.firebaseapp.com",
   projectId: "practice-bba4f",
   storageBucket: "practice-bba4f.firebasestorage.app",
@@ -197,4 +196,5 @@ let lout = document.getElementById("logout")
 lout.addEventListener('click', () => {
   location.href = "/log.html"
 })
+
 
